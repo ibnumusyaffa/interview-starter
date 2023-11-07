@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__NEXT {
+  height: 100%;
+}
+
+:root {
+  --color-primary-50: 240 249 255;
+  --color-primary-100: 224 242 254;
+  --color-primary-200: 186 230 253;
+  --color-primary-300: 125 211 252;
+  --color-primary-400: 56 189 248;
+  --color-primary-500: 14 165 233;
+  --color-primary-600: 2 132 199;
+  --color-primary-700: 3 105 161;
+  --color-primary-800: 7 89 133;
+  --color-primary-900: 12 74 110;
+  --color-primary-950: 8 47 73;
+}
+
+.purple {
+  --color-primary-50: 250 245 255;
+  --color-primary-100: 243 232 255;
+  --color-primary-200: 233 213 255;
+  --color-primary-300: 216 180 254;
+  --color-primary-400: 192 132 252;
+  --color-primary-500: 168 85 247;
+  --color-primary-600: 147 51 234;
+  --color-primary-700: 126 34 206;
+  --color-primary-800: 107 33 168;
+  --color-primary-900: 88 28 135;
+  --color-primary-950: 59 7 100;
+}
+
+.green {
+  --color-primary-50: 236 253 245;
+  --color-primary-100: 209 250 229;
+  --color-primary-200: 167 243 208;
+  --color-primary-300: 110 231 183;
+  --color-primary-400: 52 211 153;
+  --color-primary-500: 16 185 129;
+  --color-primary-600: 5 150 105;
+  --color-primary-700: 4 120 87;
+  --color-primary-800: 6 95 70;
+  --color-primary-900: 6 78 59;
+  --color-primary-950: 2 44 34;
+}
+
