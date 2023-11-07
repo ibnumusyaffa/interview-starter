@@ -32,3 +32,12 @@ GET http://dev.badr.co.id:7777/user?page=1&limit=5&keyword=marlon
 }
 
 ```
+
+DELETE http://dev.badr.co.id:7777/user/<userId>
+
+```json
+{ 
+  "message": "User deleted successfully" 
+}
+
+```
