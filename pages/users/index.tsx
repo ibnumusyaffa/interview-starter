@@ -147,7 +147,7 @@ export default function Example() {
           </div>
           <Pagination
             page={1}
-            total={100}
+            totalPages={100}
             onChange={(page) => {
               console.log(page)
             }}

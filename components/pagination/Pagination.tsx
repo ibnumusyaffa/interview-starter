@@ -161,8 +161,8 @@ type PaginationProps = {
   /**  active page number */
   page?: number
 
-  /** Total amount of items */
-  total: number
+  /** Total page*/
+  totalPages: number
 
   /** Siblings amount on left/right side of selected page, defaults to 1 */
   siblings?: number
@@ -186,18 +186,18 @@ export function Pagination({
   withPageNumber = true,
   page = 1,
   onChange,
-  total,
+  totalPages,
   disabled,
 }: PaginationProps) {
   const { range, setPage, next, previous, active } = usePagination({
     page,
     siblings,
-    total,
+    total: totalPages,
     onChange,
     boundaries,
   })
 
-  disabled = disabled || total === 0
+  disabled = disabled || totalPages === 0
 
   return (
     <div className="is-group group flex">
@@ -233,7 +233,7 @@ export function Pagination({
           )
         })}
 
-      <Item onClick={next} disabled={active === total || disabled}>
+      <Item onClick={next} disabled={active === totalPages || disabled}>
         <div className="flex items-center space-x-1 px-2">
           <div className="hidden md:block">Next</div>
           <div>
