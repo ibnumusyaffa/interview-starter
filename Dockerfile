@@ -1,4 +1,4 @@
-FROM node:18.14.0-bullseye-slim
+FROM node:18-bookworm-slim
 
 # Create app directory
 WORKDIR /app
