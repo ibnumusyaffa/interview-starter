@@ -1,7 +1,7 @@
 version: "3"
 services:
-  my-app:
-    container_name: my-app
+  interview-starter:
+    container_name: interview-starter
     build: ./
     ports:
         - 9999:3000
