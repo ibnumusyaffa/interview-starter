@@ -45,3 +45,11 @@ DELETE http://dev.badr.co.id:7777/user/<userId>
 ## Demo
 
 [http://dev.badr.co.id:5555/users](http://dev.badr.co.id:5555/users)
+
+
+## Priority
+
+- List users
+- Pagination + Limit
+- Search
+- Delete 
