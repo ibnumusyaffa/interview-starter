@@ -73,7 +73,7 @@ export default function Example() {
       <div className=" border border-gray-200 bg-white">
         <div className="flex justify-start  px-5 py-5">
           <div className="flex w-80 space-x-3 ">
-            <InputSearch placeholder="Search User..."></InputSearch>
+            <InputSearch  placeholder="Search User..."></InputSearch>
           </div>
         </div>
         {/*-------------------------------------------------------------------------*/}
