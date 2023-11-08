@@ -44,7 +44,7 @@ DELETE http://dev.badr.co.id:7777/user/<userId>
 
 ## Demo
 
-Before [http://dev.badr.co.id:9999/users](http://dev.badr.co.id:5555/users)
+Before [http://dev.badr.co.id:9999/users](http://dev.badr.co.id:9999/users)
 After [http://dev.badr.co.id:5555/users](http://dev.badr.co.id:5555/users)
 
 
